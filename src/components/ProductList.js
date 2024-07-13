@@ -33,7 +33,6 @@ const ProductList = () => {
               <td className="py-2 px-4 border-b border-gray-200" >
                 <img src={product.image} alt={product.name} className="w-12 h-12 object-cover" />
                 <Link to={`/edit-product/${product._id}`} className="text-blue-500 hover:underline">{product.name}</Link>
-                {/* Display SKU code */}
                 <p className="text-gray-500 text-sm">{product.sku}</p>
               </td>
               <td className="py-2 px-4 border-b border-gray-200 text-[#764EE8] font-semibold">{product.category}</td>
