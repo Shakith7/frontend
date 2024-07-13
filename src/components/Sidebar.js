@@ -10,7 +10,6 @@ const Sidebar = () => {
   return (
     <div className="h-screen w-64 white text-white flex flex-col">
       <div className="flex items-center justify-center h-20">
-        {/* <img src="../icons/logo.png" alt="Logo" className="h-12" /> */}
         <img src={logo} alt="Logo" className="h-12" />
       </div><br />
       <nav className="mt-10 flex flex-col">
