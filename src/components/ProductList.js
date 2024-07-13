@@ -31,7 +31,6 @@ const ProductList = () => {
           {products.map(product => (
             <tr key={product._id} className="hover:bg-gray-100">
               <td className="py-2 px-4 border-b border-gray-200" >
-                {/* Display image using google drive image link in db */}
                 <img src={product.image} alt={product.name} className="w-12 h-12 object-cover" />
                 <Link to={`/edit-product/${product._id}`} className="text-blue-500 hover:underline">{product.name}</Link>
                 {/* Display SKU code */}
