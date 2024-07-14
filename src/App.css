@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+body, html {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
